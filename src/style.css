@@ -220,3 +220,40 @@ footer{
 .social-icon svg:hover{
     fill: #1ED760;
 }
+
+/*Footer Inferior*/
+
+#bottom-footer{
+    font-family: 'Gotham Light';
+    margin-top: 80px;
+}
+
+#legal-links{
+    float: left;
+}
+
+#legal-links a{
+    margin: 0 10px;
+
+    font-weight: 600;
+    font-size: 11px;
+    color: #919496;
+}
+
+#legal-links a:hover, #copyright a:hover{
+    color:#1ED760
+}
+
+#copyright{
+    float: right;
+}
+
+#copyright a{
+    font-weight: 100;
+    display: block;
+    text-align: right;
+
+    font-size: 11px;
+    margin-bottom: 16px;
+    color: #919496;
+}
