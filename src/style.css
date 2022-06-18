@@ -111,3 +111,37 @@ header nav ul li:hover{
 }
 
 /*Segunda Section*/
+
+#web-player{
+    padding: 140px 180px;
+    background-color: #2941ab;
+
+    background-image: url(../assets/images/web-player-background.svg);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+#web-player h1, #web-player h2{
+    color: #1ED760;
+}
+
+#web-player h1{
+    font-size: 52px;
+}
+
+#web-player h2{
+    font-size: 22px;
+    font-family: 'Gotham Light';
+}
+
+#web-player button{
+    color: #2941ab;
+    background-color: #1ED760;
+}
+
+.mt-medium{
+    margin-top: 60px;
+}
+
+/*Footer*/
