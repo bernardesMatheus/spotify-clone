@@ -59,7 +59,7 @@ header{
 
 header nav{
     position: absolute;
-    top: 40%;
+    top: 30%;
     right: 10%;
 }
 
@@ -256,4 +256,30 @@ footer{
     font-size: 11px;
     margin-bottom: 16px;
     color: #919496;
+}
+
+/*Melhorias no cabeçalho*/
+
+header nav span{
+    color: #fff;
+}
+
+header nav img{
+    border-radius: 50%;
+    height: 42px;
+    vertical-align: middle;
+    margin: auto 10px;
+}
+
+header nav svg{
+    fill: #fff;
+    height: 12px;
+}
+
+header nav ul li:hover svg{
+    fill: #1ED760;
+}
+
+#dropdown-button{
+    cursor: pointer;
 }
