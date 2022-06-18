@@ -145,3 +145,57 @@ header nav ul li:hover{
 }
 
 /*Footer*/
+
+footer{
+    background-color: #000;
+    padding: 80px 100px;
+}
+
+/*Parte superior do rodapé*/
+#top-footer{
+    text-align: center;
+}
+
+#top-footer div{
+    display: inline-block;
+}
+
+/*Logo do rodapé*/
+#footer-logo{
+    float: left;
+}
+
+/*Div com os links de navegação dentro do site*/
+#footer-links{
+    font-family: 'Gotham Light';
+    text-align: left;
+    font-weight: 100;
+}
+
+.links-column{
+    float: left;
+    margin: 0 42px;
+}
+
+.links-column h3{
+    color: #919496;
+    margin-bottom: 32px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.links-column li{
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+.links-column li:hover{
+    color: #1ED760;
+}
+
+
+
+#footer-social{
+    float: right;
+}
