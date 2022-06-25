@@ -110,10 +110,10 @@
 			#seja-premium button {
 				font-size: 0.75rem;
 			}
-      
-      #seja-premihm button{
-        padding: 15px;
-      }
+
+			#seja-premihm button {
+				padding: 15px;
+			}
 		}
 
 		/*Segunda Section*/
@@ -135,71 +135,116 @@
 		}
 
 		@media (max-width: 1080px) {
-      #web-player{
-        background-image: none;
-      }
+			#web-player {
+				background-image: none;
+			}
 		}
 
 		@media (max-width: 1280px) {
-      #web-player{
-        height: 35vh;
+			#web-player {
+				height: 35vh;
+				align-items: center;
+				text-align: center;
+				padding-left: 0;
+			}
+
+			#web-player h1 {
+				margin: 20px auto;
+				font-size: 1.8rem;
+			}
+
+			#web-player h2 {
+				margin: 20px auto;
+				font-size: 0.75rem;
+			}
+
+			#web-player button {
+				margin: 20px auto;
+				font-size: 0.75rem;
+				padding: 15px;
+			}
+		}
+
+		/*Rodapé*/
+		footer {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+		}
+
+		/*Rodapé Superior*/
+		#top-footer {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			align-items: flex-start;
+		}
+
+		#footer-links {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+		}
+
+		/*Rodapé inferior*/
+		#bottom-footer {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		#legal-links {
+			display: flex;
+		}
+
+		#copyright {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-evenly;
+		}
+
+		@media (max-width: 1280px) {
+      footer{
+        padding: 15px 0;
+      }
+			footer div {
+				margin: 20px auto;
+			}
+			#top-footer {
+				flex-direction: column;
+				justify-content: space-between;
+				align-items: center;
+			}
+			#footer-links {
+				flex-direction: column;
+				justify-content: space-between;
+				align-items: center;
+				text-align: center;
+			}
+			.links-column {
+				margin: 20px auto;
+			}
+
+			#bottom-footer {
+        margin-top: 0;
+				flex-direction: column;
+			}
+
+      #legal-links{
+        flex-direction: column;
         align-items: center;
-        text-align: center;
-        padding-left: 0;
       }
 
-      #web-player h1{
-        margin: 20px auto;
-        font-size: 1.8rem;
-      }
-
-      #web-player h2{
-        margin: 20px auto;
-        font-size: 0.75rem;
-      }
-
-      #web-player button{
-        margin: 20px auto;
-        font-size: 0.75rem;
-        padding: 15px;
+      #legal-links a{
+        margin: 10px auto;
       }
 		}
 
-    /*Rodapé*/
-    footer{
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-    }
-
-    /*Rodapé Superior*/
-    #top-footer{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      align-items: flex-start;
-    }
-
-    #footer-links{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-    }
-
-    /*Rodapé inferior*/
-    #bottom-footer{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
+    #copyright{
+      text-align: center;
       align-items: center;
     }
-
-    #copyright{
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-    }
-
 	</style>
 
 	<body>
