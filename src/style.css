@@ -1,5 +1,4 @@
 /* Importando Fontes */
-
 @font-face {
     font-family: 'Gotham';
     src: url(../assets/fonts/GothamMedium.ttf);
@@ -32,7 +31,6 @@ button{
     border: none;
     text-transform: uppercase;
     font-weight: 600;
-    /* font-size: 14px; */
 }
 
 button:hover{
@@ -41,11 +39,9 @@ button:hover{
 }
 
 /*Cabeçalho*/
-
 header{
     background-color: #000;
     padding: 18px 0;
-    /* position: relative; */
 }
 
 .spotify-logo{
@@ -57,17 +53,9 @@ header{
     fill: #fff;
 }
 
-header nav{
-    /* position: absolute;
-    top: 30%;
-    right: 10%; */
-}
-
 header nav ul li{
     color: #fff;
-    /* display: inline-block; */
     margin: 0 20px;
-    /* font-size: 15px; */
 }
 
 header nav ul li:hover{
@@ -75,24 +63,13 @@ header nav ul li:hover{
 }
 
 /*Conteúdo Principal*/
-
 /*Primeira Section*/
 #seja-premium{
     background-color: #ffcdd2;
-    /* padding: 175px 80px; */
-    /* text-align: center; */
-}
-
-#seja-premium h1,#seja-premium button, #seja-premium p{
-    /* margin-top: 35px; */
 }
 
 #seja-premium h1, #seja-premium p{
     color: #d83519;
-}
-
-#seja-premium h1{
-    /* font-size: 80px; */
 }
 
 #seja-premium button{
@@ -105,16 +82,12 @@ header nav ul li:hover{
 }
 
 #seja-premium p{
-    /* font-size: 12px; */
     font-family: 'Gotham Light';
     font-weight: bold;
 }
 
 /*Segunda Section*/
-
 #web-player{
-    /* padding: 140px 180px; */
-
     background-color: #2941ab;
     background-image: url(../assets/images/web-player-background.svg);
     background-size: auto 100%;
@@ -131,7 +104,6 @@ header nav ul li:hover{
 }
 
 #web-player h2{
-    /* font-size: 22px; */
     font-family: 'Gotham Light';
 }
 
@@ -145,7 +117,6 @@ header nav ul li:hover{
 }
 
 /*Footer*/
-
 footer{
     background-color: #000;
     padding: 80px 100px;
@@ -156,16 +127,6 @@ footer{
     text-align: center;
 }
 
-/* #top-footer div{
-    display: inline-block;
-} */
-
-/*Logo do rodapé*/
-#footer-logo{
-    /* float: left; */
-}
-
-/*Div com os links de navegação dentro do site*/
 #footer-links{
     font-family: 'Gotham Light';
     text-align: left;
@@ -173,30 +134,22 @@ footer{
 }
 
 .links-column{
-    /* float: left; */
     margin: 0 42px;
 }
 
 .links-column h3{
     color: #919496;
     margin-bottom: 32px;
-    /* font-size: 12px; */
     text-transform: uppercase;
 }
 
 .links-column li{
     color: #fff;
-    /* font-size: 14px; */
     margin-bottom: 24px;
 }
 
 .links-column li:hover{
     color: #1ED760;
-}
-
-/**/
-#footer-social{
-    /* float: right; */
 }
 
 #footer-social ul li{
@@ -222,21 +175,15 @@ footer{
 }
 
 /*Footer Inferior*/
-
 #bottom-footer{
     font-family: 'Gotham Light';
     margin-top: 80px;
-}
-
-#legal-links{
-    /* float: left; */
 }
 
 #legal-links a{
     margin: 0 10px;
 
     font-weight: 600;
-    /* font-size: 11px; */
     color: #919496;
 }
 
@@ -244,22 +191,15 @@ footer{
     color:#1ED760
 }
 
-#copyright{
-    /* float: right; */
-}
-
 #copyright a{
     font-weight: 100;
     display: block;
     text-align: right;
-
-    /* font-size: 11px; */
     margin-bottom: 16px;
     color: #919496;
 }
 
 /*Melhorias no cabeçalho*/
-
 header nav span{
     color: #fff;
 }
@@ -283,8 +223,6 @@ header nav ul li:hover svg{
 #dropdown-button{
     cursor: pointer;
 }
-
-/*Div que vai aparecer quando o usuário clicar no seu perfil*/
 
 #profile-dropdown{
     position: absolute;
