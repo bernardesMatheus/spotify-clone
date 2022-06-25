@@ -283,3 +283,73 @@ header nav ul li:hover svg{
 #dropdown-button{
     cursor: pointer;
 }
+
+/*Div que vai aparecer quando o usuário clicar no seu perfil*/
+
+#profile-dropdown{
+    position: absolute;
+    right: 0;
+    top: 50px;
+    background-color: #fff;
+    min-width: 160px;
+    border-radius: 2px;
+    box-shadow: 0 8px 16px 0 rgba(#000, #000, #000, 0.2);
+    display: none;
+}
+
+#profile-dropdown li{
+    display: block;
+    color:#919496;
+    padding: 12px 0;
+    margin-left: 16px;
+}
+
+#profile-dropdown a:first-of-type li{
+    color: #000;
+}
+
+#profile-dropdown a li:hover{
+    color: #1ED760;
+}
+
+.show{
+    display: block !important;
+}
+
+.rainbow-animation{
+    animation: rainbow-logo 3s infinite;
+}
+
+@keyframes rainbow-logo{
+    0%{
+        fill: red;
+
+    }
+    12.5%{
+        fill: orange;
+    }
+
+    25%{
+        fill: yellow;
+    }
+
+    37.5%{
+        fill: green;
+    }
+
+    50%{
+        fill: #009dff;
+    }
+
+    62.5%{
+        fill: blue
+    }
+
+    80%{
+        fill: blueviolet;
+    }
+
+    100%{
+        fill: red;
+    }
+}
