@@ -45,7 +45,7 @@ button:hover{
 header{
     background-color: #000;
     padding: 18px 0;
-    position: relative;
+    /* position: relative; */
 }
 
 .spotify-logo{
@@ -65,8 +65,8 @@ header nav{
 
 header nav ul li{
     color: #fff;
-    display: inline-block;
-    margin: auto 20px;
+    /* display: inline-block; */
+    margin: 0 20px;
     font-size: 15px;
 }
 
@@ -79,8 +79,8 @@ header nav ul li:hover{
 /*Primeira Section*/
 #seja-premium{
     background-color: #ffcdd2;
-    padding: 175px 80px;
-    text-align: center;
+    /* padding: 175px 80px; */
+    /* text-align: center; */
 }
 
 #seja-premium h1,#seja-premium button, #seja-premium p{
